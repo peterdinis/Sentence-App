@@ -1,6 +1,6 @@
 import React from "react";
 import { sentenceProps } from "../interfaces/SentenceInterface";
-import {InfoSection, FinalSentence, HomeLink} from './DisplaySentence.styled';
+import { InfoSection, FinalSentence, HomeLink } from "./DisplaySentence.styled";
 
 const DisplaySentence: React.FunctionComponent<sentenceProps> = ({
   sentenceInfo,
@@ -10,10 +10,12 @@ const DisplaySentence: React.FunctionComponent<sentenceProps> = ({
   return (
     <div>
       <InfoSection>
-         <FinalSentence>  {who}  {what} {when}  {where}.</FinalSentence>
+        <FinalSentence>
+          {who} {what} {when} {where}.
+        </FinalSentence>
       </InfoSection>
 
-      <HomeLink href='/' className="homelink">
+      <HomeLink href="/" className="homelink">
         Návrat na domov
       </HomeLink>
     </div>

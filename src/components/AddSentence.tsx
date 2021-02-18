@@ -52,7 +52,7 @@ function AddSentence() {
         <div>
           <Header>Sentence Game</Header>
           <SubHeader>
-            Pridaj do input elementu slová a vznikne ti veta
+            Pridaj do input elementu slovo a po kliknutí na button vznikne veta
           </SubHeader>
           <InputsPart>
             <form onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ function AddSentence() {
                   required
                   name="who"
                   type="text"
-                  placeholder="WHO"
+                  placeholder="Kto"
                   value={who}
                   onChange={handleChange}
                 />
@@ -73,7 +73,7 @@ function AddSentence() {
                   required
                   name="what"
                   type="text"
-                  placeholder="WHAT"
+                  placeholder="Čo"
                   value={what}
                   onChange={handleChange}
                 />
@@ -84,7 +84,7 @@ function AddSentence() {
                   required
                   name="when"
                   type="text"
-                  placeholder="WHEN"
+                  placeholder="Kedy"
                   value={when}
                   onChange={handleChange}
                 />
@@ -95,7 +95,7 @@ function AddSentence() {
                   required
                   name="where"
                   type="text"
-                  placeholder="WHERE"
+                  placeholder="Kde"
                   value={where}
                   onChange={handleChange}
                 />

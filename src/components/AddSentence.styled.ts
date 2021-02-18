@@ -16,6 +16,10 @@ export const SubmitButton = styled.button`
     cursor: pointer;
     border-radius: 7px;
     font-size: 1.2rem;
+
+    :hover {
+        outline: none;
+    }
 `;
 
 export const InputLabel = styled.label`
